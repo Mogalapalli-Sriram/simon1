@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /* background-color: #011F3F; */
+  background-color: #ff4c68;
+}
+
+li a{
+  font-size: 1.5rem;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3.5rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+.colornav {
+  color: brown;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.row {
+  margin: auto;
+  display: block;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+/* styling aboutus.html */
+.about , .play-method, .video-tutorial{
+  line-height: 1.5;
+  text-align:justify;
+  padding:2% 5%;
+}
+.about h1, .play-method h1, .video-tutorial h1{
+    font-family: 'Merriweather', serif;
+
+}
+
+.about p, .play-method p{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.tutorial-container{
+position:relative;
+overflow: hidden;
+width:100%;
+padding-top:56.25%;
+}
+
+.tutorial{
+position:absolute;
+width:70%;
+height:70%;
+top:0;
+bottom:0;
+left:0;
+right:0;
+display:block;
+margin:0 auto;
+border:none;
+
+
+}
+
+@media (max-width:550px) {
+  .btn {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  #level-title {
+    margin-bottom: 15%;
+    font-size: 2rem;
+  }
+}
