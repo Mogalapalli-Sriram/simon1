@@ -4,7 +4,7 @@ var userClickPattern = [];
 var count = 0;
 var begin = false;
 var type;
-document.addEventListener("touchmove", function() {
+document.addEventListener("keypress", function() {
   if (!begin) {
     setTimeout(function() {
       newSequence();
@@ -35,7 +35,7 @@ function newSequence() {
 
 
 
-$(".btn").on("touchstart",function() {
+$(".btn").on("click",function() {
   if (begin) {
     var userChosenColor = this.id;
     userClickPattern.push(userChosenColor);
