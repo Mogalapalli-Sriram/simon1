@@ -35,7 +35,7 @@ function newSequence() {
 
 
 
-$(".btn").on("click",function() {
+$(".btn").click(function() {
   if (begin) {
     var userChosenColor = this.id;
     userClickPattern.push(userChosenColor);
